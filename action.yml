@@ -1,0 +1,13 @@
+name: "Castor Build Action"
+description: "Automate building Zoo Tycoon 2 mods with Castor"
+author: "ZtModArchive"
+inputs:
+  CastorLoc:
+    required: true
+    description: "Castor installation location"
+  Z2f:
+    required: false
+    description: "whether Castor should output a z2f or a zip"
+runs:
+  using: 'node16'
+  main: 'index.js'
