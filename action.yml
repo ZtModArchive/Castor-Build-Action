@@ -8,3 +8,4 @@ runs:
     - run: dotnet tool install --global Castor --version 4.1.0
       shell: bash
     - run: castor build
+      shell: bash
