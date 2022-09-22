@@ -1,7 +1,8 @@
 name: "Castor Build Action"
 description: "Automate building Zoo Tycoon 2 mods with Castor"
-icon: archive
-color: red
+branding:
+  icon: archive
+  color: red
 author: "ZtModArchive"
 runs:
   using: "composite"
